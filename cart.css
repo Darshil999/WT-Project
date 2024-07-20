@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+
+}
+#root{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+}
+.centered {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+cartstart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headercart{
+	
+    height: 80px;
+    width: 65%;
+    background-color: rgb(255, 136, 0);
+    border-radius: 30px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+	
+	
+}
+
+.headercart .logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.cart{
+	font-size: 18px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 3px;
+    width: 80px;
+}
+
+.fa-solid{
+    color: goldenrod;
+
+}
+
+.cart p{
+	font-size: 18px;
+    height: 22px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: goldenrod;
+    color: white;
+}
+
+.containercart{
+    display: flex;
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.sidebar{
+    width: 40%;
+    border-radius: 5px;
+    background-color: #eee;
+    margin-left: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.headcart{
+    background-color: goldenrod;
+    border-radius: 3px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.footcart{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border-top: 1px solid #333;
+
+}
+
+#menu-btncart{
+	font-size: 2.5rem;
+	cursor: pointer;
+	color:var(--black);
+	display:none;
+}
+
+.btncart{
+	display: inline-block;
+	background: var(--black);
+	margin-top: 1rem;
+	color:var(--white);
+	font-size: 1.7rem;
+	padding: 1rem 3rem;
+	cursor: pointer;
+}
+
+.btncart:hover{
+	background: var(--main-color);
+}
+
+
+
+
+
+
+
+.btncart-check{
+    
+        display: block; /* Ensure the button takes up the full width of its container */
+        margin: 0 auto; /* Center-align the button horizontally */
+        text-align: center; /* Center-align the text inside the button */
+    
+    
+}
